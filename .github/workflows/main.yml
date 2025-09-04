@@ -22,10 +22,10 @@ jobs:
             echo "[DRY-RUN] Would scale workloads to 0"
             echo "[DRY-RUN] Would delete ingress"
             echo "[DRY-RUN] Would scale nodegroups to 0"
-            echo "✅ Environment would be DOWN"
+            echo "Environment would be DOWN"
           else
             echo "[DRY-RUN] Would scale nodegroups up"
             echo "[DRY-RUN] Would wait for nodes"
             echo "[DRY-RUN] Would scale workloads up"
-            echo "✅ Environment would be UP"
+            echo "Environment would be UP"
           fi
